@@ -1,0 +1,202 @@
+@media (max-width: 991px){
+    header{
+        .row{
+            .align-self-start{
+                h2{
+                    font-size: 30px;
+                    line-height: 21px;
+                }
+                span{
+                    font-size: 20px !important;
+                }
+            }
+            .align-self-end{
+                margin-bottom: 0 !important;
+                h2{
+                    margin-bottom: .5rem !important;
+                }
+                p{
+                    font-size: 16px !important;
+                }
+            }
+        }
+        svg{
+            top: 94% !important;
+        }
+    }
+    .skills{
+        .skills-grid{
+            grid-template-columns: repeat(3, 1fr) !important;
+            .img{
+                &:nth-child(6),
+                &:nth-child(7),
+                &:nth-child(8),
+                &:nth-child(9){
+                    right: 0% !important;
+                }
+            }
+        }
+    }
+    .latest-work{
+        height: 120vh !important;
+        .card{
+            height: 50vh !important;
+            margin-right: auto !important;
+            margin-left: auto !important;
+        }
+        .back{
+            bottom: 28% !important;
+            .details{
+                h4{
+                    font-size: 21px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+        svg{
+            bottom: -23% !important;
+        }
+    }
+    .contact{
+        .contact-info{
+            width: 75% !important;
+        }
+    }
+}
+@media (max-width: 768px){
+    header{
+        .row{
+            .col-md-4{
+                text-align: center;
+            }
+            .align-self-start{
+                h2{
+                    font-size: 36px;
+                }
+                span{
+                    font-size: 24px;
+                }
+            }
+            .align-self-center{
+                .feature-img{
+                    width: 150px !important;
+                    height: 155px !important;
+                }
+            }
+        }
+        svg{
+            top: 99% !important;
+        }
+    }
+    .latest-work{
+        .col-lg-6{
+            width: 42vw !important;
+            .card{
+                width: 40vw !important;
+            }
+        }
+        svg{
+            bottom: -15% !important;
+        }
+    }
+    .contact{
+        .contact-info{
+            .info{
+                width: inherit;
+                margin: auto;
+                text-align: center;
+            }
+        }
+    }
+}
+@media (max-width: 576px){
+    .skills{
+        .skills-grid{
+            grid-template-columns: repeat(2, 1fr) !important;
+            .img{
+                &:nth-child(9){
+                    left: 50% !important;
+                }
+            }
+        }
+    }
+    .latest-work{
+        height: 980px !important;
+        .row{
+            flex-wrap: wrap;
+            .col-12{
+                width: 75% !important;
+                .front{
+                    width: 100% !important;
+                }
+                .back{
+                    width: 70.5% !important;
+                    &:last-child{
+                        bottom: 8% !important;
+                    }
+                }
+                &:first-child{
+                    .back{
+                        bottom: 42.5% !important;
+                    }
+                }
+            }
+        }
+        svg{
+            bottom: -10% !important;
+        }
+    }
+    .contact{
+        .contact-info{
+            width: 85% !important;
+        }
+    }
+}
+@media (max-width: 447px){
+    header{
+        .row{
+            .align-self-start{
+                margin-bottom: 10px;
+            }
+            .align-self-end{
+                margin-top: 10px;
+            }
+        }
+    }
+    .skills{
+        .skills-grid{
+            margin: 15px auto !important;
+            padding: 0 !important;
+        }
+    }
+    .latest-work{
+        .row{
+            margin-top: -35px !important;
+            .col-12{
+                width: 90% !important;
+                .back{
+                    width: 83.5% !important;
+                    &:last-child{
+                        bottom: 3% !important;
+                    }
+                }
+                &:first-child{
+                    .back{
+                        bottom: 42.5% !important;
+                    }
+                }
+            }
+        }
+        svg {
+            bottom: -5%!important;
+        }
+    }
+    .contact{
+        .contact-info{
+            width: 90% !important;
+            top: -20px !important;
+        }
+    }
+}
